@@ -1,0 +1,14 @@
+﻿<Window x:Class="FinanceTracker.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:FinanceTracker"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="832" Width="1280" Background="#FF353434" FontSize="16">
+    <Grid VerticalAlignment="Top">
+        <Button x:Name="AddOpertationButton" Content="Добавить операцию" Height="34" Width="234" HorizontalAlignment="Left" Margin="53,171,0,0" VerticalAlignment="Top" Background="#FF696968" FontFamily="Manrope" FontWeight="UltraLight" Click="AddOpertationButton_Click" Foreground="#FFF9F9F9"/>
+        <Label x:Name="SvishchevLogo" Content="Svishchev Finance Tracker" HorizontalAlignment="Left" Margin="18,56,0,0" VerticalAlignment="Top" FontSize="36" FontFamily="Manrope" FontWeight="Medium" Foreground="White"/>
+        <Button Content="Добавить счет" HorizontalAlignment="Left" Margin="53,250,0,0" Height ="34" Width ="234" VerticalAlignment="Top" Background="#FF696868" Foreground="#FFF5EEEE" FontFamily="Manrope" FontWeight="UltraLight"/>
+    </Grid>
+</Window>
