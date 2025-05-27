@@ -18,3 +18,4 @@ C:\Users\admin\source\repos\FinanceTracker\FinanceTracker\obj\Debug\net8.0-windo
 C:\Users\admin\source\repos\FinanceTracker\FinanceTracker\obj\Debug\net8.0-windows\FinanceTracker.pdb
 C:\Users\admin\source\repos\FinanceTracker\FinanceTracker\obj\Debug\net8.0-windows\FinanceTracker.genruntimeconfig.cache
 C:\Users\admin\source\repos\FinanceTracker\FinanceTracker\obj\Debug\net8.0-windows\ref\FinanceTracker.dll
+C:\Users\admin\source\repos\FinanceTracker\FinanceTracker\obj\Debug\net8.0-windows\FinanceTracker.sourcelink.json

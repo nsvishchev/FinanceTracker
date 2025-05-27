@@ -21,13 +21,6 @@ namespace FinanceTracker
         {
             InitializeComponent();
         }
-
-        private void Button_Click(object sender, RoutedEventArgs e)
-        {
-            Debug.WriteLine("Hello!");
-            MessageBox.Show("Hello!");
-        }
-
         private void AddOpertationButton_Click(object sender, RoutedEventArgs e)
         {
 

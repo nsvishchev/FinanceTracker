@@ -7,8 +7,13 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="832" Width="1280" Background="#FF353434" FontSize="16">
     <Grid VerticalAlignment="Top">
-        <Button x:Name="AddOpertationButton" Content="Добавить операцию" Height="34" Width="234" HorizontalAlignment="Left" Margin="53,171,0,0" VerticalAlignment="Top" Background="#FF696968" FontFamily="Manrope" FontWeight="UltraLight" Click="AddOpertationButton_Click" Foreground="#FFF9F9F9"/>
+        <Button x:Name="AddOpertation_Button" Content="Добавить операцию" Height="34" Width="234" HorizontalAlignment="Left" Margin="53,171,0,0" VerticalAlignment="Top" Background="#FF696968" FontFamily="Manrope" FontWeight="UltraLight" Click="AddOpertationButton_Click" Foreground="#FFF9F9F9"/>
         <Label x:Name="SvishchevLogo" Content="Svishchev Finance Tracker" HorizontalAlignment="Left" Margin="18,56,0,0" VerticalAlignment="Top" FontSize="36" FontFamily="Manrope" FontWeight="Medium" Foreground="White"/>
-        <Button Content="Добавить счет" HorizontalAlignment="Left" Margin="53,250,0,0" Height ="34" Width ="234" VerticalAlignment="Top" Background="#FF696868" Foreground="#FFF5EEEE" FontFamily="Manrope" FontWeight="UltraLight"/>
+        <Button x:Name="AddAccount_Button" Content="Добавить счет" HorizontalAlignment="Left" Margin="53,250,0,0" Height ="34" Width ="234" VerticalAlignment="Top" Background="#FF696868" Foreground="#FFF5EEEE" FontFamily="Manrope" FontWeight="UltraLight"/>
+        <Button x:Name="ViewAllAccountList_Button" Content="Показать список счетов" HorizontalAlignment="Left" Margin="53,331,0,0" VerticalAlignment="Top" Width="234" Height="34" Foreground="White" Background="#FF696868" FontFamily="Manrope" FontWeight="UltraLight"/>
+        <Button x:Name="MoneyTransfer_Button" Content="Перевод между счетами" HorizontalAlignment="Left" Margin="53,412,0,0" VerticalAlignment="Top" Width="234" Height="34" Foreground="White" Background="#FF696868" FontFamily="Manrope" FontWeight="UltraLight"/>
+        <Button x:Name="DeleteAccount_Button" Content="Удалить счет" HorizontalAlignment="Left" Margin="53,493,0,0" VerticalAlignment="Top" Width="234" Height="34" Foreground="White" Background="#FF696868" FontFamily="Manrope" FontWeight="UltraLight"/>
+        <Button x:Name="OpertationsHistory_Button" Content="История операций" HorizontalAlignment="Left" Margin="53,574,0,0" VerticalAlignment="Top" Width="234" Height="34" Foreground="White" Background="#FF696868" FontFamily="Manrope" FontWeight="UltraLight"/>
+        <Border BorderBrush="#FF989393" BorderThickness="1" HorizontalAlignment="Left" Height="253" Margin="874,115,0,0" VerticalAlignment="Top" Width="359"/>
     </Grid>
 </Window>
